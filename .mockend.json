@@ -1,7 +1,7 @@
 {
   "OrderDetail": {
     "Unit": "string",
-    "ProductId": "int"
+    "ProductId": "int",
     "Quantity": "int",
     "published": "string",
     "ModifiedDate": "date"
