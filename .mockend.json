@@ -1,0 +1,45 @@
+{
+  "OrderDetail": {
+    "Unit": "string",
+    "ProductId": "int"
+    "Quantity": "int",
+    "published": "string",
+    "ModifiedDate": "date"
+  },
+  "Orders": {
+    "OrderId": "int",
+    "StatusCode": "string",
+    "StatusMessage": "string",
+    "SupplierId": "int",
+	"OrderDetails" : "OrderDetail[]",
+    "ModifiedDate": "date"
+  },
+  "Products":{
+    "ProductId": "int",
+    "StatusCode": "string", 
+    "Barcode": "int",
+    "ModifiedDate": "date"
+  },
+  "Stocks":{
+    "StockId": "int",
+    "ProductId": "int",
+    "Unit": "string", 
+    "Quantity": "int",
+    "ModifiedDate": "date"
+  },
+  "Suppliers":{
+    "SupplierId": "int", 
+    "Name": "string", 
+    "Address": "string", 
+    "ModifiedDate": "date"
+  }
+  ,
+  "Users":{
+    "UserId": "int", 
+    "FullName": "string", 
+    "Role": "string", 
+    "Username": "string", 
+    "Password": "string", 
+    "ModifiedDate": "date"
+  }
+}
