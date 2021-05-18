@@ -41,5 +41,5 @@
         "Quantity": "int",
         "published": "string",
         "ModifiedDate": "date"
-    },
+    }
 }
