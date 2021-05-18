@@ -1,19 +1,5 @@
 {
-    "Orders": {
-        "OrderId": "int",
-        "StatusCode": "string",
-        "StatusMessage": "string",
-        "SupplierId": "int",
-        "OrderDetails": "OrderDetail[]",
-        "ModifiedDate": "date"
-    },
-    "OrderDetail": {
-        "Unit": "string",
-        "ProductId": "int",
-        "Quantity": "int",
-        "published": "string",
-        "ModifiedDate": "date"
-    },
+ 
     "Products": {
         "ProductId": "int",
         "StatusCode": "string",
@@ -40,5 +26,20 @@
         "Username": "string",
         "Password": "string",
         "ModifiedDate": "date"
-    }
+    },
+       "Orders": {
+        "OrderId": "int",
+        "StatusCode": "string",
+        "StatusMessage": "string",
+        "SupplierId": "int",
+        "OrderDetails": "OrderDetail[]",
+        "ModifiedDate": "date"
+    },
+    "OrderDetail": {
+        "Unit": "string",
+        "ProductId": "int",
+        "Quantity": "int",
+        "published": "string",
+        "ModifiedDate": "date"
+    },
 }
